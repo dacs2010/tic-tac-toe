@@ -9,24 +9,18 @@ function formatUser(user){
 
 
 const user = {
-    firstName: '∂ß',
-    lastName: ''
+    firstName: 'David',
+    lastName: 'Sedgwick'
 };
 
-const element = (
-   <div> tabIndex='0'</div>
-);
-
-
-function getGreeting(user) {
-    if (user) {
-        return <h1>Hello,{formatUser(user)}!</h1>
-    }
-    return <h1>Hello, Stranger.</h1>
+function tick() {
+    const element = (
+        <div>
+            <h1>Hello, world!</h1>
+            <h2>It is {new Date().toLocaleTimeString()}.</h2>
+        </div>
+    );
+    ReactDOM.render(element, document.getElementById('root'));
 }
 
-
-ReactDOM.render(
-    element,
-    document.querySelector('#root')
-);
+setInterval(tick, 2000);
