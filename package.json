@@ -21,5 +21,18 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dacs2010/tic-tac-toe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dacs2010/tic-tac-toe/issues"
+  },
+  "homepage": "https://github.com/dacs2010/tic-tac-toe#readme",
+  "description": ""
 }
